@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+
+.task {
+    position: relative; 
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 30px auto; 
+    border: 1px solid #ccc; 
+}
+.child {
+    position: absolute;
+} 
+.task1 {
+    border: 1px solid green; 
+}
+.red-square {
+    width: 80px;
+    height: 80px;
+    border: 1px solid red; 
+    bottom: 0;wertrew
+    left: 50%; 
+    transform: translateX(-50%);
+} 
+
+.task2 {
+    background-color: #4dee99;
+} 
+.white-square {
+    width: 80px;
+    height: 80px;
+    background-color: white; 
+    bottom: 0; 
+    left: 50px; 
+}
+
+/
+.task3 {
+    width: 100px; 
+    height: 250px;
+    border: 1px solid black;
+}
+.task3 .child {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    left: 25px; 
+}
+.light-red { background-color: red; top: 20px; }
+.light-yellow { background-color: yellow; top: 100px; }
+.light-green { background-color: green; top: 180px; }
+
+
+.task4 {
+    width: 250px;
+    height: 250px;
+    background-color: #4dee99;
+    border-radius: 50%; 
+}
+
+.eye-left, .eye-right {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+}
+.eye-left { left: 50px; }
+.eye-right { right: 50px; }
+/* Нос */
+.nose {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth-flat {
+    width: 80px;
+    height: 15px;
+    background-color: white;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.task5 {
+    width: 250px;
+    height: 250px;
+    background-color: #c1cc17; 
+    border-radius: 50%;
+}
+.task5 .eye-left, .task5 .eye-right {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+}
+.task5 .eye-left { left: 50px; }
+.task5 .eye-right { right: 50px; }
+
+.nose-round {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth-smile {
+    width: 100px;
+    height: 50px;
+    border: 10px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    border-radius: 0 0 50px 50px; 
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
